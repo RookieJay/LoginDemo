@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Fragment"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="用户名："/>
+        <TextView
+            android:id="@+id/tv_login_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxx"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="状态："/>
+        <TextView
+            android:id="@+id/tv_login_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxx"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="令牌："/>
+        <TextView
+            android:id="@+id/tv_login_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxx"/>
+    </LinearLayout>
+
+
+</LinearLayout>
